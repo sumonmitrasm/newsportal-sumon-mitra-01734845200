@@ -59,6 +59,7 @@ Route::namespace('App\Http\Controllers\Admin')->prefix('/admin')->group(function
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Front Customer<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Route::namespace('App\Http\Controllers\Front')->group(function(){
     Route::get('/', [IndexsController::class, 'index'])->name('index');
+    Route::get('/search-news', [IndexsController::class, 'news_search'])->name('news.search');
     //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Front Authantication<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     Route::any('login-customer', [UserController::class, 'logincustpmer'])->name('login-customer');
     Route::any('register-customer', [UserController::class, 'registercustpmer'])->name('register-customer');
@@ -66,6 +67,7 @@ Route::namespace('App\Http\Controllers\Front')->group(function(){
     Route::any('save-register-user', [UserController::class, 'saveRegisterUser'])->name('save-register-user');
     Route::match(['GET','POST'],'/confirm/{code}', 'UserController@confirmAccount');
     
+
     Route::group(['middleware'=>['auth']],function(){
        Route::any('customer-logout', [UserController::class, 'customerLogout'])->name('customer-logout');
        //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Customer Account<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
