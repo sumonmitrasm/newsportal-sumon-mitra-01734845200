@@ -76,56 +76,7 @@
 							</div>
 							<!-- /Search -->
 
-							<!-- Latest Posts -->
-							<div class="card post-widget blog-widget">
-								<div class="card-header">
-									<h4 class="card-title">Recent Posts</h4>
-								</div>
-								<div class="card-body">
-									<ul class="latest-posts">
-										<li>
-											<div class="post-thumb">
-												<a href="blog-details.html">
-													<img class="img-fluid" src="assets/img/blog/blog-01.jpg" alt="Img">
-												</a>
-											</div>
-											<div class="post-info">
-												<h4>
-													<a href="blog-details.html">Learn Webs Applications Development from Experts</a>
-												</h4>
-												<p><img class="img-fluid" src="assets/img/icon/icon-22.svg" alt="Img">Jun 14, 2022</p>
-											</div>
-										</li>
-										<li>
-											<div class="post-thumb">
-												<a href="blog-details.html">
-													<img class="img-fluid" src="assets/img/blog/blog-02.jpg" alt="Img">
-												</a>
-											</div>
-											<div class="post-info">
-												<h4>
-													<a href="blog-details.html">Expand Your Career Opportunities With Python</a>
-												</h4>
-												<p><img class="img-fluid" src="assets/img/icon/icon-22.svg" alt="Img"> 3 Dec 2019</p>
-											</div>
-										</li>
-										<li>
-											<div class="post-thumb">
-												<a href="blog-details.html">
-													<img class="img-fluid" src="assets/img/blog/blog-03.jpg" alt="Img">
-												</a>
-											</div>
-											<div class="post-info">
-												<h4>
-													<a href="blog-details.html">Complete PHP Programming Career Guideline</a>
-												</h4>
-												<p><img class="img-fluid" src="assets/img/icon/icon-22.svg" alt="Img"> 3 Dec 2019</p>
-											</div>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<!-- /Latest Posts -->
+							
 						</div>
 						<!-- /Blog Sidebar -->
 						
